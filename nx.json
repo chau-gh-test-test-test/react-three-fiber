@@ -1,10 +1,7 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "targetDefaults": {
-    "build": {
-      "dependsOn": ["^build"],
-      "cache": true
-    }
-  },
-  "defaultBase": "master"
+  "targetDefaults": { "build": { "dependsOn": ["^build"], "cache": true } },
+  "defaultBase": "master",
+  "nxCloudId": "672a6e0024fe8944a8ac3068",
+  "nxCloudUrl": "https://staging.nx.app"
 }

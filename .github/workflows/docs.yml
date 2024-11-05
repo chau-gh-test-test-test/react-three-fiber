@@ -1,7 +1,5 @@
 name: Build documentation and deploy to GitHub Pages
 on:
-  push:
-    branches: ['master']
   workflow_dispatch:
 
 # Cancel previous run (see: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency)

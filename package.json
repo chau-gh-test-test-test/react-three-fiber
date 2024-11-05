@@ -50,6 +50,7 @@
     "@babel/preset-typescript": "^7.16.7",
     "@changesets/changelog-git": "^0.1.11",
     "@changesets/cli": "^2.22.0",
+    "@nx/workspace": "^20.0.8",
     "@preconstruct/cli": "^2.1.5",
     "@testing-library/react": "^13.0.0-alpha.5",
     "@types/jest": "^29.2.5",

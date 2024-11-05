@@ -2243,6 +2243,15 @@
     "@emnapi/runtime" "^1.1.0"
     "@tybys/wasm-util" "^0.9.0"
 
+"@napi-rs/wasm-runtime@^0.2.4":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.5.tgz#b6f5079408305fe6a3529ccb2bb8ba8d9b7a02e7"
+  integrity sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==
+  dependencies:
+    "@emnapi/core" "^1.1.0"
+    "@emnapi/runtime" "^1.1.0"
+    "@tybys/wasm-util" "^0.9.0"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -2271,7 +2280,7 @@
   dependencies:
     nx-cloud "19.1.0"
 
-"@nx/devkit@20.0.8":
+"@nx/devkit@20.0.8", "@nx/devkit@>= 19 < 21":
   version "20.0.8"
   resolved "https://registry.yarnpkg.com/@nx/devkit/-/devkit-20.0.8.tgz#566491b9bc66c799977ea187e51cdae4f04e1b58"
   integrity sha512-MRUGgWSMzYtdwtolvWL5EZlX+7xYgu7JIXf1+3rmZU5adMmlqWKrIbyvDf53XocQlT8oxx/xXTEFHhIymGTQCg==
@@ -2334,6 +2343,76 @@
   version "20.0.8"
   resolved "https://registry.yarnpkg.com/@nx/nx-win32-x64-msvc/-/nx-win32-x64-msvc-20.0.8.tgz#ff8a261246d5488b073f4ec5b8cdb9b13cf7711c"
   integrity sha512-yLlcgM0zFdmsExdLv8O2g5FWQ6d2vyN5OynKV+F5BrWHC4LvrqyYJ99y++5bLFoEi19RYIK6sLnzGIRSF6dHGg==
+
+"@nx/powerpack-enterprise-cloud@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-enterprise-cloud/-/powerpack-enterprise-cloud-1.0.10.tgz#555fa897d7f353a9c36edbd30796786226287f77"
+  integrity sha512-woKnn4kpBkvm/vHBVqg9qaQGmXTLZLtMZd4vYdjMd+8QZJiV5GeHdyi4WsDwZu9MLMl6FaBBmCapYoI+ohQZpQ==
+  dependencies:
+    "@nx/devkit" ">= 19 < 21"
+    "@nx/powerpack-license" "1.0.10"
+
+"@nx/powerpack-license-darwin-arm64@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-darwin-arm64/-/powerpack-license-darwin-arm64-1.0.10.tgz#4872105fca75325b54fb1bd6b49788befbd68002"
+  integrity sha512-foLS3jtXtOdrjSpTgdXSeAMHDUCkWfwz+Tm1oUUdz9b5yvIZlawjAxIL3eXHFYMUhAXnG15pbdE9q1ogV20mcg==
+
+"@nx/powerpack-license-darwin-x64@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-darwin-x64/-/powerpack-license-darwin-x64-1.0.10.tgz#778e4a992fa4d40585c4b5b820d83ad8d2198389"
+  integrity sha512-ZI7X9IvBfYGz5V3XffwrafbBznqhnus5ntuJn8fEJB8N9Cl3m1I5ufQg2JsjJE8I+yrSNYS7oMZ5ce6dKrCJKg==
+
+"@nx/powerpack-license-linux-arm-gnueabihf@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-linux-arm-gnueabihf/-/powerpack-license-linux-arm-gnueabihf-1.0.10.tgz#a475617eb2866a39a26528b2bf48136b3452096a"
+  integrity sha512-ejpEun7gUFxL9vhNZxcafAabhC2kC4V9nmEC8dVUxiectAxfquNX8COhaBDwpSgtQBjZxjuWEfDnVtOzozCFIg==
+
+"@nx/powerpack-license-linux-arm64-gnu@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-linux-arm64-gnu/-/powerpack-license-linux-arm64-gnu-1.0.10.tgz#18a65a588864350fd95f501ad6e8b19c2582b80b"
+  integrity sha512-gei3i8H/gfBj/dYd6UEAC80tl8pvZdK9qPX4X4/rKrumUo6luEAic+buHWNyIzcsZkKdPGGUGq1hQUmKhQDIRA==
+
+"@nx/powerpack-license-linux-arm64-musl@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-linux-arm64-musl/-/powerpack-license-linux-arm64-musl-1.0.10.tgz#3fb65db38b3180bb01d65b3f0a7f2869204f2873"
+  integrity sha512-UUajQSDnDQh7bx3uTdFigDrJI+Dwp5owq2zduyroqcMzT6b1/5rHbhZTysLMP/GJElkbz9G30mY2e+fBH5cKpA==
+
+"@nx/powerpack-license-linux-x64-gnu@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-linux-x64-gnu/-/powerpack-license-linux-x64-gnu-1.0.10.tgz#15920683ab8b0e8d178739024f0cd6ee573b1074"
+  integrity sha512-C3WV2YH0g2wnQvXBStMjGztnrQuhOQKC4pI0KtGiZ9HpetZqrQqg1pVN2FoIOqEx0a6Bj35zRwMIrcAnmVdbMQ==
+
+"@nx/powerpack-license-linux-x64-musl@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-linux-x64-musl/-/powerpack-license-linux-x64-musl-1.0.10.tgz#908f287466535def328bc190ab208119e6a73bd0"
+  integrity sha512-FbUaNt5pwPApAWfYTky7A9g/6gKWV9CGiRaPq/F0ob242wtOeozSRR5p4e8JhHOD9ZTb3Q4SKO9yiMVzxaVmTA==
+
+"@nx/powerpack-license-win32-arm64-msvc@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-win32-arm64-msvc/-/powerpack-license-win32-arm64-msvc-1.0.10.tgz#2cd0ff74f873e67654e9ecc5155ab5db308f4c24"
+  integrity sha512-C4sBipiaHl1XNW3kB49+ymS0dU4dviHo/EoDKRGuxFAC+LgsFwqPayI6njKIkO32UVJIttIpHtQMpcWgPMkgiQ==
+
+"@nx/powerpack-license-win32-x64-msvc@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license-win32-x64-msvc/-/powerpack-license-win32-x64-msvc-1.0.10.tgz#ef6c78f5203c9cf80497c864882b1c6ddc0df3ef"
+  integrity sha512-Vb96UckEn19Gv4Iyo7JplmMXfQ316MhxyygR5U31b+XwDX4qzTQ3xftLqUBdML+ByMYyZUpvEjKmaEXxnuuK0g==
+
+"@nx/powerpack-license@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nx/powerpack-license/-/powerpack-license-1.0.10.tgz#cbc61171da3b54abae5ac224f5c8ff28f83732c9"
+  integrity sha512-JXX+0kWnnHZ/Q3u0RLdkKlyMQmyl5aUZKNWbGpzr1RVCivvYWv1o0mLYIhgLEydWsyFoEXswcKC+E/WEAqUl4w==
+  dependencies:
+    "@napi-rs/wasm-runtime" "^0.2.4"
+  optionalDependencies:
+    "@nx/powerpack-license-darwin-arm64" "1.0.10"
+    "@nx/powerpack-license-darwin-x64" "1.0.10"
+    "@nx/powerpack-license-linux-arm-gnueabihf" "1.0.10"
+    "@nx/powerpack-license-linux-arm64-gnu" "1.0.10"
+    "@nx/powerpack-license-linux-arm64-musl" "1.0.10"
+    "@nx/powerpack-license-linux-x64-gnu" "1.0.10"
+    "@nx/powerpack-license-linux-x64-musl" "1.0.10"
+    "@nx/powerpack-license-win32-arm64-msvc" "1.0.10"
+    "@nx/powerpack-license-win32-x64-msvc" "1.0.10"
 
 "@nx/workspace@^20.0.8":
   version "20.0.8"
